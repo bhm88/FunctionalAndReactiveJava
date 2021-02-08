@@ -1,0 +1,9 @@
+Lambdas
+1.with no parameter,name,return type,access modifier==========>   ()->Sout("hi");
+2.with parameter,no name,return type,type of arguments,access modifier==========> (a,b)->Sout(a+b);
+compiler can guess the argument type by type inference
+3.with parameter and return type===================> s->s.length();
+4.with multiple statements===>s->{
+int l=s.length();
+return l;
+};
